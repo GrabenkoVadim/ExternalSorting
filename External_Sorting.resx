@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Tittle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mongolian Baiti, 24pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Tittle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Tittle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 9</value>
+  </data>
+  <data name="Tittle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 48</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Tittle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Tittle.Text" xml:space="preserve">
+    <value>External Sorting</value>
+  </data>
+  <data name="&gt;&gt;Tittle.Name" xml:space="preserve">
+    <value>Tittle</value>
+  </data>
+  <data name="&gt;&gt;Tittle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tittle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tittle.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Number_Of_Elemens_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Number_Of_Elemens_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Number_Of_Elemens_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 60</value>
+  </data>
+  <data name="Number_Of_Elemens_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="Number_Of_Elemens_label.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Number_Of_Elemens_label.Text" xml:space="preserve">
+    <value>Elements Count:</value>
+  </data>
+  <data name="&gt;&gt;Number_Of_Elemens_label.Name" xml:space="preserve">
+    <value>Number_Of_Elemens_label</value>
+  </data>
+  <data name="&gt;&gt;Number_Of_Elemens_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Number_Of_Elemens_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Number_Of_Elemens_label.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Generation_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 10pt</value>
+  </data>
+  <data name="Generation_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Generation_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 108</value>
+  </data>
+  <data name="Generation_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 24</value>
+  </data>
+  <data name="Generation_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Generation_Button.Text" xml:space="preserve">
+    <value>GENERATE
+</value>
+  </data>
+  <data name="&gt;&gt;Generation_Button.Name" xml:space="preserve">
+    <value>Generation_Button</value>
+  </data>
+  <data name="&gt;&gt;Generation_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Generation_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Generation_Button.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Full_Input_file_button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Full_Input_file_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Full_Input_file_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 386</value>
+  </data>
+  <data name="Full_Input_file_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="Full_Input_file_button.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Full_Input_file_button.Text" xml:space="preserve">
+    <value>Open file</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_button.Name" xml:space="preserve">
+    <value>Full_Input_file_button</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_button.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Natural_Merge_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Natural_Merge_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Natural_Merge_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 181</value>
+  </data>
+  <data name="Natural_Merge_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 24</value>
+  </data>
+  <data name="Natural_Merge_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Natural_Merge_Button.Text" xml:space="preserve">
+    <value>Natural mergesort</value>
+  </data>
+  <data name="&gt;&gt;Natural_Merge_Button.Name" xml:space="preserve">
+    <value>Natural_Merge_Button</value>
+  </data>
+  <data name="&gt;&gt;Natural_Merge_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Natural_Merge_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Natural_Merge_Button.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Balanced_Multiway_Merge_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Balanced_Multiway_Merge_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Balanced_Multiway_Merge_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 211</value>
+  </data>
+  <data name="Balanced_Multiway_Merge_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 24</value>
+  </data>
+  <data name="Balanced_Multiway_Merge_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Balanced_Multiway_Merge_Button.Text" xml:space="preserve">
+    <value>Balanced multiway merging</value>
+  </data>
+  <data name="&gt;&gt;Balanced_Multiway_Merge_Button.Name" xml:space="preserve">
+    <value>Balanced_Multiway_Merge_Button</value>
+  </data>
+  <data name="&gt;&gt;Balanced_Multiway_Merge_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Balanced_Multiway_Merge_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Balanced_Multiway_Merge_Button.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Polyphase_Sort_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Polyphase_Sort_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Polyphase_Sort_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 241</value>
+  </data>
+  <data name="Polyphase_Sort_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
+  <data name="Polyphase_Sort_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Polyphase_Sort_Button.Text" xml:space="preserve">
+    <value>Polyphase sort</value>
+  </data>
+  <data name="&gt;&gt;Polyphase_Sort_Button.Name" xml:space="preserve">
+    <value>Polyphase_Sort_Button</value>
+  </data>
+  <data name="&gt;&gt;Polyphase_Sort_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Polyphase_Sort_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Polyphase_Sort_Button.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Full_Input_file_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="Full_Input_file_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Full_Input_file_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 388</value>
+  </data>
+  <data name="Full_Input_file_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 20</value>
+  </data>
+  <data name="Full_Input_file_label.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Full_Input_file_label.Text" xml:space="preserve">
+    <value>To view full input file:</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_label.Name" xml:space="preserve">
+    <value>Full_Input_file_label</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Full_Input_file_label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Sort_button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="Sort_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sort_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 271</value>
+  </data>
+  <data name="Sort_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 25</value>
+  </data>
+  <data name="Sort_button.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Sort_button.Text" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="&gt;&gt;Sort_button.Name" xml:space="preserve">
+    <value>Sort_button</value>
+  </data>
+  <data name="&gt;&gt;Sort_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sort_button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sort_button.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Full_Output_File_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="Full_Output_File_Label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Full_Output_File_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 386</value>
+  </data>
+  <data name="Full_Output_File_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 28</value>
+  </data>
+  <data name="Full_Output_File_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Full_Output_File_Label.Text" xml:space="preserve">
+    <value>To view full output file:</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Label.Name" xml:space="preserve">
+    <value>Full_Output_File_Label</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Full_Output_File_Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Full_Output_File_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Full_Output_File_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 379</value>
+  </data>
+  <data name="Full_Output_File_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="Full_Output_File_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Full_Output_File_Button.Text" xml:space="preserve">
+    <value>Open file</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Button.Name" xml:space="preserve">
+    <value>Full_Output_File_Button</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Full_Output_File_Button.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Input_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 58</value>
+  </data>
+  <data name="Input_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 317</value>
+  </data>
+  <data name="Input_list.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Input_list.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Input_list.Name" xml:space="preserve">
+    <value>Input_list</value>
+  </data>
+  <data name="&gt;&gt;Input_list.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Input_list.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Input_list.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Output_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 56</value>
+  </data>
+  <data name="Output_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 317</value>
+  </data>
+  <data name="Output_list.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Output_list.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Output_list.Name" xml:space="preserve">
+    <value>Output_list</value>
+  </data>
+  <data name="&gt;&gt;Output_list.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Output_list.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Output_list.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NumberOfAccessesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 328</value>
+  </data>
+  <data name="NumberOfAccessesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="NumberOfAccessesList.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesList.Name" xml:space="preserve">
+    <value>NumberOfAccessesList</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesList.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NumberOfAccessesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="NumberOfAccessesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NumberOfAccessesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 305</value>
+  </data>
+  <data name="NumberOfAccessesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="NumberOfAccessesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="NumberOfAccessesLabel.Text" xml:space="preserve">
+    <value>Number of accesses:</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesLabel.Name" xml:space="preserve">
+    <value>NumberOfAccessesLabel</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NumberOfAccessesLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="From_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 138</value>
+  </data>
+  <data name="From_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="From_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="From_Label.Text" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="&gt;&gt;From_Label.Name" xml:space="preserve">
+    <value>From_Label</value>
+  </data>
+  <data name="&gt;&gt;From_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;From_Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;From_Label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="To_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 136</value>
+  </data>
+  <data name="To_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="To_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="To_Label.Text" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="&gt;&gt;To_Label.Name" xml:space="preserve">
+    <value>To_Label</value>
+  </data>
+  <data name="&gt;&gt;To_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;To_Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;To_Label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="From_List.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 135</value>
+  </data>
+  <data name="From_List.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="From_List.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;From_List.Name" xml:space="preserve">
+    <value>From_List</value>
+  </data>
+  <data name="&gt;&gt;From_List.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;From_List.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;From_List.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="To_List.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 135</value>
+  </data>
+  <data name="To_List.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="To_List.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;To_List.Name" xml:space="preserve">
+    <value>To_List</value>
+  </data>
+  <data name="&gt;&gt;To_List.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;To_List.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;To_List.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Elements_Input_Field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 82</value>
+  </data>
+  <data name="Elements_Input_Field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="Elements_Input_Field.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Elements_Input_Field.Name" xml:space="preserve">
+    <value>Elements_Input_Field</value>
+  </data>
+  <data name="&gt;&gt;Elements_Input_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Elements_Input_Field.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Elements_Input_Field.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>868, 432</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>External Sorting v.2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ExternalSorting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

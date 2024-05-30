@@ -1,0 +1,16 @@
+C:\Users\ABuser\RiderProjects\KP\bin\Debug\KP.exe.config
+C:\Users\ABuser\RiderProjects\KP\bin\Debug\KP.exe
+C:\Users\ABuser\RiderProjects\KP\bin\Debug\KP.pdb
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.csproj.AssemblyReference.cache
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.Properties.Resources.resources
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.csproj.GenerateResource.cache
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.csproj.CoreCompileInputs.cache
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.exe
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.pdb
+C:\Users\ABuser\RiderProjects\KP\bin\Debug\aa\KP.resources.dll
+C:\Users\ABuser\RiderProjects\KP\bin\Debug\en\KP.resources.dll
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\aa\KP.resources.dll
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\en\KP.resources.dll
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.ExternalSorting.resources
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.ExternalSorting.aa.resources
+C:\Users\ABuser\RiderProjects\KP\obj\Debug\KP.ExternalSorting.en.resources
